@@ -1,0 +1,39 @@
+.wrapper {
+  
+    border: transparent;
+    background-color: #0d6efd;
+    padding: 8px 6px;
+    color: #fff;
+    border-radius: 4px;
+   
+
+    &.edit {
+        background-color: #ffc107;
+        color: var(--txt-color);
+    }
+
+    &.del {
+        background-color: rgb(183, 76, 76);
+        color: var(--txt-color);
+    }
+
+    &.reset {
+        background-color: #ffc107;
+        color: #fff;
+    }
+
+    &.close {
+        background-color: rgb(195, 13, 13);
+        color: #fff;
+
+    }
+    &.update {
+        background-color: rgb(16, 170, 80);
+        color: #fff;
+    }
+
+
+
+
+  
+}
